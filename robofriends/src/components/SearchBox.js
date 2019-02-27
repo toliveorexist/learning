@@ -3,7 +3,9 @@ import React from 'react';
 const SearchBox = ({seatrhfield, searchChange}) => {
     return (
         <div>
-        <input type='search' placeholder='search robots'
+        <input
+        aria-label='Search Robots'
+        type='search' placeholder='search robots'
         onChange={searchChange}
     />
         </div>
